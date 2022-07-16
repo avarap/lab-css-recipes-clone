@@ -3,13 +3,9 @@ body, html {
     margin: 0;
 }
 
-#img1{
-    width: 200px;
-}
-
 #background-img {
     width: 100vw;
-    height: 100vh;
+    height: 50vh;
     position: absolute;
     z-index: -1;
     top: 0;
@@ -17,8 +13,8 @@ body, html {
 }
 
 #heading-container {
-    height: 100vh;
-    margin-bottom: 10vh;
+    height: 45vh;
+    margin-bottom: 5vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,11 +22,13 @@ body, html {
 }
 
 #MainContent {
-    /* height: 100vh; */
-    /* margin-bottom: 10vh; */
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction:column;
+}
+
+.center {
+    text-align: center;
 }
 
