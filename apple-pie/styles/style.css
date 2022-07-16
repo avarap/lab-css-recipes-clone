@@ -25,10 +25,12 @@ body, html {
     color: white;
 }
 
-#content {
+#MainContent {
     /* height: 100vh; */
     /* margin-bottom: 10vh; */
-    /* display: flex; */
+    display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction:column;
 }
+
